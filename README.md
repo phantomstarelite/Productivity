@@ -1,128 +1,61 @@
-Here’s a **clean, professional README.md** you can directly copy-paste into your GitHub repository.
-I’ve written it as if **you (Pratik)** created the Java productivity project, and kept it beginner-friendly but interview-ready.
-
----
-
-```md
 # Productivity App (Java)
 
-A simple **Java-based Productivity Application** designed to help users manage tasks efficiently and improve focus using a **Pomodoro Timer** approach.  
-This project is beginner-friendly and focuses on clean logic, core Java concepts, and practical productivity features.
+A simple **Java-based Productivity Application** designed to help users manage tasks efficiently and improve focus using a **Pomodoro Timer** technique. This project is beginner-friendly and focuses on core Java concepts, logic building, and clean code structure.
 
 ---
 
 ## 🚀 Features
 
-- ✅ **Task Management**
-  - Add tasks
-  - View tasks
-  - Strike (complete) tasks
-
-- ⏱️ **Pomodoro Timer**
-  - Focus sessions to improve productivity
-  - Supports multiple Pomodoro cycles
-
-- 💾 **Persistent Storage**
-  - Tasks are saved locally using file serialization
-
-- 🧠 **Logic-Focused Design**
-  - No external frameworks
-  - Built using core Java concepts
+- ✅ Add new tasks  
+- 📋 View all tasks  
+- ❌ Strike (mark completed) tasks  
+- ⏱️ Pomodoro timer for focused work sessions  
+- 💾 Persistent task storage using file serialization  
 
 ---
 
 ## 🛠️ Tech Stack
 
 - **Language:** Java  
-- **Concepts Used:**
-  - OOP (Classes, Objects)
-  - Collections (ArrayList)
+- **Core Concepts Used:**
+  - Object-Oriented Programming (OOP)
+  - Collections (`ArrayList`)
   - File Handling & Serialization
-  - Loops & Conditional Logic
-  - Modular Code Structure
+  - Control Flow & Logic Building
+  - Modular Code Design
 
 ---
 
 ## 📂 Project Structure
 
-```
+<img width="963" height="354" alt="image" src="https://github.com/user-attachments/assets/0188f7ba-31a1-4107-8c69-a825b932d062" />
 
-Productivity/
-│
-├── src/
-│   ├── Main.java
-│   ├── TaskManager.java
-│   ├── PomodoroTimer.java
-│   └── Task.java
-│
-├── bin/
-├── .project
-├── .classpath
-└── tasks.ser
-
-````
 
 ---
 
-## ▶️ How to Run the Project
+## ▶️ How to Run
 
-1. **Clone the repository**
+1. Clone the repository:
    ```bash
    git clone https://github.com/phantomstarelite/Productivity.git
-````
+2. Open the project in any Java IDE:
 
-2. **Open in IDE**
+  * Eclipse
 
-   * Eclipse / IntelliJ IDEA / VS Code (Java Extension)
+  * IntelliJ IDEA
+    
+  * VS Code (with Java extensions)
 
-3. **Run**
+3. Run the Main.java file
 
-   * Execute `Main.java`
+## 📌 Purpose of the Project
 
----
+This project is created to:
 
-## 📌 Use Case
+1. Practice Java fundamentals
 
-This project is ideal for:
+2. Build logic-oriented applications
 
-* Java beginners learning logic building
-* College mini projects
-* Understanding file handling & OOP
-* Productivity tool experimentation
+3. Understand file persistence
 
----
-
-## 🔮 Future Improvements
-
-* GUI using JavaFX or Swing
-* Daily productivity statistics
-* Notifications for Pomodoro completion
-* Export tasks to text or CSV
-* User profiles
-
----
-
-## 👤 Author
-
-**Pratik**
-GitHub: [@phantomstarelite](https://github.com/phantomstarelite)
-
----
-
-## ⭐ Support
-
-If you like this project, consider giving it a **star ⭐**
-Feedback and contributions are always welcome!
-
-```
-
----
-
-If you want, I can also:
-- 🔥 Make it **more professional for resumes**
-- 🎨 Add **badges** (Java version, license, status)
-- 🧪 Add a **sample output section**
-- 🏷️ Suggest **better project name & description**
-
-Just tell me 👍
-```
+4. Create a useful productivity-based mini project
